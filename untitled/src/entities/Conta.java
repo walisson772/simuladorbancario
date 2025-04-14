@@ -2,25 +2,15 @@ package entities;
 
 public class Conta {
 
-    private Integer numeroConta;
     private Double saldo;
     private Double credito;
 
     public Conta(){
     }
 
-    public Conta(Integer numeroConta, Double saldo, Double credito){
-        this.numeroConta = numeroConta;
+    public Conta(Double saldo, Double credito){
         this.saldo = saldo;
         this.credito = credito;
-    }
-
-    public Integer getNumeroConta(){
-        return numeroConta;
-    }
-
-    public void setNumeroConta(Integer numeroConta){
-        this.numeroConta = numeroConta;
     }
 
     public Double getSaldo() {
